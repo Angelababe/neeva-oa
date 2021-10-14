@@ -173,7 +173,7 @@ class TweetIndex:
 
 if __name__ == "__main__":
     # A full list of tweets is available in data/tweets.csv for your use.
-    tweet_csv_filename = "../data/tweets.csv"
+    tweet_csv_filename = "tweets.csv"
     list_of_tweets = []
     with open(tweet_csv_filename, "r") as f:
         csv_reader = csv.reader(f, delimiter=",")
